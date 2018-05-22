@@ -1,0 +1,98 @@
+.baohai-nav {
+    background-color: white;
+    height: 70px;
+    box-shadow:0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+.baohai-nav .navbar-brand {
+    color: #777;
+}
+.baohai-nav .navbar-brand:hover,
+.baohai-nav .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+.baohai-nav .navbar-text {
+    color: #777;
+}
+.baohai-nav .navbar-nav > li > a {
+    color: #8e8e8e;
+}
+.baohai-nav .navbar-nav > li > a:hover,
+.baohai-nav .navbar-nav > li > a:focus {
+    color: #38b4e9;
+    background-color: transparent;
+    border-bottom: solid 3px #38b4e9;
+}
+.baohai-nav .navbar-nav > .active > a,
+.baohai-nav .navbar-nav > .active > a:hover,
+.baohai-nav .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+.baohai-nav .navbar-nav > .disabled > a,
+.baohai-nav .navbar-nav > .disabled > a:hover,
+.baohai-nav .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+.baohai-nav .navbar-toggle {
+    border-color: #ddd;
+}
+.baohai-nav .navbar-toggle:hover,
+.baohai-nav .navbar-toggle:focus {
+    background-color: #ddd;
+}
+.baohai-nav .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.baohai-nav .navbar-collapse,
+.baohai-nav .navbar-form {
+    margin-top: 10px;
+}
+.baohai-nav .navbar-nav > .open > a,
+.baohai-nav .navbar-nav > .open > a:hover,
+.baohai-nav .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+    .baohai-nav .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .baohai-nav .navbar-nav .open .dropdown-menu > li > a:hover,
+    .baohai-nav .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+    .baohai-nav .navbar-nav .open .dropdown-menu > .active > a,
+    .baohai-nav .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .baohai-nav .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+    .baohai-nav .navbar-nav .open .dropdown-menu > .disabled > a,
+    .baohai-nav .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .baohai-nav .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+.baohai-nav .navbar-link {
+    color: #777;
+}
+.baohai-nav .navbar-link:hover {
+    color: #333;
+}
+.baohai-nav .btn-link {
+    color: #777;
+}
+.baohai-nav .btn-link:hover,
+.baohai-nav .btn-link:focus {
+    color: #333;
+}
+.baohai-nav .btn-link[disabled]:hover,
+fieldset[disabled] .baohai-nav .btn-link:hover,
+.baohai-nav .btn-link[disabled]:focus,
+fieldset[disabled] .baohai-nav .btn-link:focus {
+    color: #ccc;
+}
